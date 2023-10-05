@@ -76,7 +76,7 @@ import Navbar from './Navbar'; // Navbar component for navigation
 import Comments from './Comments'; // Comments component displays comments data
 import UserProfile from './UserProfile'; // UserProfile component displays user profile data
 import UserDetails from './Userdetails'; // UserDetails component displays user-specific data
-import DataComponent from './DataComponent'; // DataComponent is used to display the data we talked about earlier
+import DataComponent from './DataComponent'; // 
 import ControlledForm from './FormControl';
 
 
