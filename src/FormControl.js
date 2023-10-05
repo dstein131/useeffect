@@ -193,7 +193,7 @@ function FormControlExample() {
     setEmail(value);
 
     // Basic email validation using regex
-    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+[A-Z]{2,4}$/i;
     if (!value) {
       setEmailError('Email cannot be empty!');
     } else if (!emailRegex.test(value)) {
