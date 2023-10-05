@@ -18,6 +18,13 @@ const Navbar = () => {
         <li>
           <Link to="/data-components">Data Components</Link>
         </li>
+        <li>
+            <Link to="/form-control">Form Control</Link>
+        </li>
+        <li>
+          <Link to="/user-profile">User Profile</Link>  
+          
+        </li>
       </ul>
     </nav>
   );
